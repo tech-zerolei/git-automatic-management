@@ -1,0 +1,14 @@
+Package: git-version-planner
+Version: 0.1.0-1
+Section: devel
+Priority: optional
+Architecture: all
+Maintainer: tech-zerolei <tech-zerolei@users.noreply.github.com>
+Depends: python3 (>= 3.10), git (>= 1:2.48.0), bubblewrap (>= 0.8.0), zenity, xdg-utils
+Recommends: x-www-browser
+Homepage: https://github.com/tech-zerolei/git-automatic-management
+Description: Offline read-only Git version planner with a Chinese desktop UI
+ Inspect a selected local Git worktree, confirm a SemVer baseline, review
+ Conventional Commits version suggestions, and export Markdown or JSON.
+ Does not commit, tag, push, connect to GitHub or transmit data to a model.
+ Requires a graphical desktop, a browser and working Bubblewrap namespaces.

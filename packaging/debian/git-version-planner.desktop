@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Git Version Planner
+Name[zh_CN]=Git 版本规划（本地版）
+Comment=Offline read-only Git version suggestions and release notes
+Comment[zh_CN]=本地只读版本规划，不提交、不发布
+Exec=git-version-planner
+TryExec=git-version-planner
+Icon=git-version-planner
+Terminal=false
+Categories=Development;RevisionControl;
+Keywords=Git;SemVer;Version;Release;
+StartupNotify=false

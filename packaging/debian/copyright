@@ -1,0 +1,12 @@
+Upstream-Name: Git Version Planner
+Source: https://github.com/tech-zerolei/git-automatic-management
+
+Project code: no license has been selected by the repository owner.
+Public availability of the source does not grant an open-source license.
+This package does not change the project's license status.
+
+Bundled Python semver 3.0.4 is licensed under BSD-3-Clause.
+See semver-LICENSE.txt in this directory for its complete license.
+
+Bundled Lucide is licensed under ISC.
+See LUCIDE-LICENSE in this directory for its complete license.

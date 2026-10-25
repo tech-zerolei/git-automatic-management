@@ -10,6 +10,19 @@
 
 ## 快速开始
 
+### DEB安装（推荐）
+
+从本仓库 **Releases** 下载 `git-version-planner_0.1.0-1_all.deb`，运行：
+
+```bash
+sudo apt install ./git-version-planner_0.1.0-1_all.deb
+git-version-planner
+```
+
+安装后可直接在应用菜单打开 **Git 版本规划（本地版）**，无需保留源码目录。[DEB安装、校验与卸载说明](docs/DEB.md)。
+
+下面是源码运行方式。
+
 ### 获取项目
 
 ```bash

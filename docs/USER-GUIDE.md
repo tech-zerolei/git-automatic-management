@@ -4,6 +4,8 @@
 
 ## 安装与启动
 
+**DEB用户：** 从Releases下载安装包，用 `sudo apt install ./git-version-planner_0.1.0-1_all.deb` 安装，再从应用菜单或 `git-version-planner` 启动。不需要运行下面的源码install.sh。[DEB详细说明](DEB.md)。
+
 下载ZIP解压或手动克隆本工具，进入根目录运行 `./start.sh`。需要Linux图形桌面、`/usr/bin/python3`、`/usr/bin/git`、`/usr/bin/bwrap`、`/usr/bin/zenity`。优先以Chrome应用窗口打开，否则用xdg-open调用默认浏览器。无需pip/npm，无运行时下载。
 
 `./install.sh` 通过 `xdg-user-dir DESKTOP` 写入当前用户桌面入口。内容相同可重复安装；不同内容/符号链接拒绝覆盖。无需sudo，不安装系统服务。移动工程后需处理旧图标再安装。

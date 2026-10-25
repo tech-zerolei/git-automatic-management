@@ -52,4 +52,6 @@
 | AI摘要、未来路线图、发行日规划 | 未实现，不按项目名猜测 |
 | Windows/macOS包、后台服务、自动更新器 | 未实现，不承诺跨平台 |
 
+补充交付：已新增Linux DEB构建、系统命令与菜单入口，包版本0.1.0-1；隔离安装/卸载及包内功能验证范围见[DEB说明](DEB.md)，不代表Windows/macOS或完整平台矩阵已经通过。
+
 当前功能用法见[使用指南](USER-GUIDE.md)，开发复验见[DEVELOPMENT.md](DEVELOPMENT.md)。未实现项没有可用配置或受支持用法，不需提供密钥。原完整Q-004和历史证据保留在[STATUS](implementation/STATUS.md)。

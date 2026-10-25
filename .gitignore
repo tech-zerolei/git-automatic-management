@@ -21,3 +21,5 @@ test-results/
 .vscode/
 *.swp
 *.tmp
+dist/
+*.deb

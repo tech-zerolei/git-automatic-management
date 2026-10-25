@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    "isolated dpkg install with real dependency versions",
+    "installed package state",
+    "desktop entry validation",
+    "bundled licenses",
+    "no maintainer scripts",
+    "installed-path launcher and HTTP 200",
+    "extracted payload synthetic Git plan 1.0.1",
+    "packaged JSON export",
+    "authenticated exit",
+    "isolated dpkg remove",
+    "host dpkg status unchanged"
+  ],
+  "systemInstall": false,
+  "limitations": [
+    "Host denies nested user namespaces: repository plan/export tested as normal-user package payload outside installed-path namespace"
+  ],
+  "scope": "Isolated dpkg root and installed-path startup plus extracted-payload functional test; not a privileged host install"
+}
