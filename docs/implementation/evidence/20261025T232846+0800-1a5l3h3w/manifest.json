@@ -1,0 +1,247 @@
+{
+  "time": "2026-10-25T23:28:46.479491+08:00",
+  "scope": "TASK-002 preflight only; not product acceptance",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "source_sha256": {
+    "tools/capability_probe.py": "16403b683f512709b75a13e7a652a57a2280eb1e295442bc959da566319ef728",
+    "tools/verify_preflight.py": "a789ffb07f9bee6904ecb1bc9534d1da80ff05d964519db7839edb61476d11c2",
+    "docs/specs/feat-001-git-version-planner/01-SPEC.md": "744d7e858d4843f9abd9e0eec0134ec9cf4dc13f0fb8661e1872bdc11fed00d9",
+    "docs/specs/feat-001-git-version-planner/02-PLAN.md": "1ce6c56a606a051756c120085f669fe9740ddd0d0718e3d3e5bee8e6a09a4896",
+    "docs/specs/feat-001-git-version-planner/03-TASKS.md": "ba84fdd6271cfe68b713880bd2c1a8c83811e76e9e54ac1d4a3f36495a9fd8ba",
+    "docs/specs/feat-001-git-version-planner/04-ACCEPTANCE.md": "c04c1cdd8ec3d7f1f042721fdcfbf2913e70f746a4ef98eacb13691a27c9cc6d",
+    "docs/specs/feat-001-git-version-planner/05-CHANGE.md": "e79aaa3926db621869c73564784a817297372b0718985e77fabeaa623ba4d122"
+  },
+  "spec_checker_sha256": "3d02ebd35b0e8a6c1a3c11473905a6c40fc36d3cc18242b2b464c3bb3c789307",
+  "commands": [
+    {
+      "name": "spec-check",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/gaozikun/.codex/skills/spec-driven/scripts/check_spec.py",
+        "/home/gaozikun/git/CODEX/docs/specs/feat-001-git-version-planner"
+      ],
+      "cwd": "/home/gaozikun/git/CODEX",
+      "timeout_seconds": 30,
+      "returncode": 0
+    },
+    {
+      "name": "git-probes",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/gaozikun/git/CODEX/tools/capability_probe.py"
+      ],
+      "cwd": "/home/gaozikun/git/CODEX",
+      "timeout_seconds": 30,
+      "returncode": 0
+    },
+    {
+      "name": "git-version",
+      "argv": [
+        "/usr/bin/git",
+        "--version"
+      ],
+      "cwd": "/home/gaozikun/git/CODEX",
+      "timeout_seconds": 30,
+      "returncode": 0
+    },
+    {
+      "name": "codex-version",
+      "argv": [
+        "/usr/lib/chatgpt/resources/codex",
+        "--version"
+      ],
+      "cwd": "/home/gaozikun/git/CODEX",
+      "timeout_seconds": 30,
+      "returncode": 0
+    },
+    {
+      "name": "codex-help",
+      "argv": [
+        "/usr/lib/chatgpt/resources/codex",
+        "--help"
+      ],
+      "cwd": "/home/gaozikun/git/CODEX",
+      "timeout_seconds": 30,
+      "returncode": 0
+    },
+    {
+      "name": "host-schema",
+      "argv": [
+        "/usr/lib/chatgpt/resources/codex",
+        "app-server",
+        "generate-json-schema",
+        "--out",
+        "/tmp/git-planner-host-schema-x_bz0scp/schema"
+      ],
+      "cwd": "/home/gaozikun/git/CODEX",
+      "timeout_seconds": 30,
+      "returncode": 0
+    }
+  ],
+  "archives": [
+    {
+      "path": "/home/gaozikun/桌面/codex.zip",
+      "sha256": "4f18a5ab9a5b91f09bc0bc7288a3bdbd8c05d3f43eb47844d2ba73eb28a7d415",
+      "files": [
+        {
+          "name": "01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "05-CHANGE.md",
+          "matches": true
+        }
+      ],
+      "mismatches": []
+    },
+    {
+      "path": "/home/gaozikun/git/docs/specs/feat-001-git-version-planner/revisions.zip",
+      "sha256": "71764814a6e58b6393b77bd56b337080fce59035eea950044916f57746322852",
+      "files": [
+        {
+          "name": "revisions/0.6-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.6-draft/02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.6-draft/03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.6-draft/04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.6-draft/05-CHANGE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.1-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.1-draft/02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.1-draft/03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.1-draft/04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.1-draft/05-CHANGE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.2-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.4-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.4-draft/02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.4-draft/03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.4-draft/04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.4-draft/05-CHANGE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.3-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.3-draft/02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.3-draft/03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.3-draft/04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.3-draft/05-CHANGE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.5-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.5-draft/02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.5-draft/03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.5-draft/04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.5-draft/05-CHANGE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.7-draft/01-SPEC.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.7-draft/02-PLAN.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.7-draft/03-TASKS.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.7-draft/04-ACCEPTANCE.md",
+          "matches": true
+        },
+        {
+          "name": "revisions/0.7-draft/05-CHANGE.md",
+          "matches": true
+        }
+      ],
+      "mismatches": []
+    }
+  ],
+  "product_acceptance": "AC-001 through AC-024: NOT EXECUTED",
+  "host_schema_scope": "Static schema only; no lifecycle delivery or plugin integration verified",
+  "failed_checks": [],
+  "preflight_command_status": "PASS",
+  "q004_status": "OPEN: runtime integration, dual-channel completeness, credential security, model isolation and budgets unverified"
+}

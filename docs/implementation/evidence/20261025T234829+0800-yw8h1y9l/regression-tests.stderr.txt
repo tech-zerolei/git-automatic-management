@@ -1,0 +1,16 @@
+test_corrupt_archive_rejected (test_preflight.PreflightRegressionTests.test_corrupt_archive_rejected) ... ok
+test_empty_archives_rejected (test_preflight.PreflightRegressionTests.test_empty_archives_rejected) ... ok
+test_exact_baseline_and_revision_sets_match (test_preflight.PreflightRegressionTests.test_exact_baseline_and_revision_sets_match) ... ok
+test_missing_duplicate_and_extra_entries_rejected (test_preflight.PreflightRegressionTests.test_missing_duplicate_and_extra_entries_rejected) ... ok
+test_missing_strace_returns_incomplete_not_success (test_preflight.PreflightRegressionTests.test_missing_strace_returns_incomplete_not_success) ... ok
+test_normal_exit_also_cleans_background_child (test_preflight.PreflightRegressionTests.test_normal_exit_also_cleans_background_child) ... ok
+test_outer_timeout_cleans_nested_independent_group (test_preflight.PreflightRegressionTests.test_outer_timeout_cleans_nested_independent_group) ... ok
+test_path_traversal_rejected_without_reading_target (test_preflight.PreflightRegressionTests.test_path_traversal_rejected_without_reading_target) ... ok
+test_structured_probe_counts_require_complete_set (test_preflight.PreflightRegressionTests.test_structured_probe_counts_require_complete_set) ... ok
+test_symlink_entry_rejected (test_preflight.PreflightRegressionTests.test_symlink_entry_rejected) ... ok
+test_timeout_kills_delayed_child (test_preflight.PreflightRegressionTests.test_timeout_kills_delayed_child) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.490s
+
+OK

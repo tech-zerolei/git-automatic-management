@@ -1,0 +1,8 @@
+{
+  "directory": "/home/gaozikun/git/CODEX/docs/specs/feat-001-git-version-planner",
+  "documents_checked": 5,
+  "in_scope_requirements": 24,
+  "acceptance_definitions": 24,
+  "errors": [],
+  "note": "Structural checks only; no semantic approval, product tests, or release authorization."
+}

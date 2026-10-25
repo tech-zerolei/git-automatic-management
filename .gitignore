@@ -1,0 +1,23 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Optional browser-test dependencies
+node_modules/
+playwright-report/
+test-results/
+# Local credentials and session files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.ready.json
+# Editor / OS residue
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.tmp

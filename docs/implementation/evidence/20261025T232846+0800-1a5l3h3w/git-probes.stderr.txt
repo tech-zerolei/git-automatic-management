@@ -1,0 +1,13 @@
+test_P01_supported_read_flags_and_nul_status (__main__.CapabilityProbes.test_P01_supported_read_flags_and_nul_status) ... ok
+test_P02_read_sequence_preserves_files_and_metadata (__main__.CapabilityProbes.test_P02_read_sequence_preserves_files_and_metadata) ... ok
+test_P03_repository_fsmonitor_is_not_executed (__main__.CapabilityProbes.test_P03_repository_fsmonitor_is_not_executed) ... ok
+test_P04_linked_worktrees_have_distinct_git_directories (__main__.CapabilityProbes.test_P04_linked_worktrees_have_distinct_git_directories) ... ok
+test_P05_unborn_and_bare_are_observable_not_product_classified (__main__.CapabilityProbes.test_P05_unborn_and_bare_are_observable_not_product_classified) ... ok
+test_P06_fixed_commit_difference_ignores_worktree_changes (__main__.CapabilityProbes.test_P06_fixed_commit_difference_ignores_worktree_changes) ... ok
+test_P07_missing_promisor_object_does_not_launch_transport (__main__.CapabilityProbes.test_P07_missing_promisor_object_does_not_launch_transport) ... ok
+test_P08_strace_records_no_network_syscall_for_status (__main__.CapabilityProbes.test_P08_strace_records_no_network_syscall_for_status) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.133s
+
+OK

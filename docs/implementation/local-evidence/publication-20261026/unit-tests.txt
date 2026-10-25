@@ -1,0 +1,43 @@
+test_annotated_tags_and_linked_worktree (test_local_app.LocalAppTests.test_annotated_tags_and_linked_worktree) ... ok
+test_bare_and_unborn_and_non_repo (test_local_app.LocalAppTests.test_bare_and_unborn_and_non_repo) ... ok
+test_breaking_footer_not_substring (test_local_app.LocalAppTests.test_breaking_footer_not_substring) ... ok
+test_clean_and_process_filters_rejected_before_equal_length_status (test_local_app.LocalAppTests.test_clean_and_process_filters_rejected_before_equal_length_status) ... ok
+test_duplicate_tag_normalization_requires_review (test_local_app.LocalAppTests.test_duplicate_tag_normalization_requires_review) ... ok
+test_export_directory_move_before_unnamed_file_creation (test_local_app.LocalAppTests.test_export_directory_move_before_unnamed_file_creation) ... ok
+test_export_directory_move_during_and_after_publication (test_local_app.LocalAppTests.test_export_directory_move_during_and_after_publication) ... ok
+test_export_no_overwrite_or_symlink_or_repository (test_local_app.LocalAppTests.test_export_no_overwrite_or_symlink_or_repository) ... ok
+test_export_no_unnamed_file_support_fails_without_named_fallback (test_local_app.LocalAppTests.test_export_no_unnamed_file_support_fails_without_named_fallback) ... ok
+test_export_rechecks_plan_after_file_dialog (test_local_app.LocalAppTests.test_export_rechecks_plan_after_file_dialog) ... ok
+test_filter_config_race_uses_sealed_configuration (test_local_app.LocalAppTests.test_filter_config_race_uses_sealed_configuration) ... ok
+test_fsmonitor_and_shell_environment_not_executed (test_local_app.LocalAppTests.test_fsmonitor_and_shell_environment_not_executed) ... ok
+test_http_origin_host_token_and_no_cors (test_local_app.LocalAppTests.test_http_origin_host_token_and_no_cors) ... ok
+test_initial_requires_explicit_valid_version (test_local_app.LocalAppTests.test_initial_requires_explicit_valid_version) ... ok
+test_manual_review_preserves_conflicts_and_requires_reason (test_local_app.LocalAppTests.test_manual_review_preserves_conflicts_and_requires_reason) ... ok
+test_markdown_preserves_breaking_footer_details_and_escapes_markup (test_local_app.LocalAppTests.test_markdown_preserves_breaking_footer_details_and_escapes_markup) ... ok
+test_no_release_for_empty_difference (test_local_app.LocalAppTests.test_no_release_for_empty_difference) ... ok
+test_occupied_candidate_on_unreachable_branch (test_local_app.LocalAppTests.test_occupied_candidate_on_unreachable_branch) ... ok
+test_partial_includes_and_replace_rejected (test_local_app.LocalAppTests.test_partial_includes_and_replace_rejected) ... ok
+test_prerelease_initial_stays_review (test_local_app.LocalAppTests.test_prerelease_initial_stays_review) ... ok
+test_preview_export_reject_missing_and_stale_displayed_plan (test_local_app.LocalAppTests.test_preview_export_reject_missing_and_stale_displayed_plan) ... ok
+test_stable_patch_minor_major (test_local_app.LocalAppTests.test_stable_patch_minor_major) ... ok
+test_stale_review_and_export_invalidated (test_local_app.LocalAppTests.test_stale_review_and_export_invalidated) ... ok
+test_status_isolation_unavailable_fails_closed (test_local_app.LocalAppTests.test_status_isolation_unavailable_fails_closed) ... ok
+test_status_special_names_and_no_git_mutation (test_local_app.LocalAppTests.test_status_special_names_and_no_git_mutation) ... ok
+test_unknown_and_merge_need_review (test_local_app.LocalAppTests.test_unknown_and_merge_need_review) ... ok
+test_zero_major_breaking_is_minor (test_local_app.LocalAppTests.test_zero_major_breaking_is_minor) ... ok
+test_corrupt_archive_rejected (test_preflight.PreflightRegressionTests.test_corrupt_archive_rejected) ... ok
+test_empty_archives_rejected (test_preflight.PreflightRegressionTests.test_empty_archives_rejected) ... ok
+test_exact_baseline_and_revision_sets_match (test_preflight.PreflightRegressionTests.test_exact_baseline_and_revision_sets_match) ... ok
+test_missing_duplicate_and_extra_entries_rejected (test_preflight.PreflightRegressionTests.test_missing_duplicate_and_extra_entries_rejected) ... ok
+test_missing_strace_returns_incomplete_not_success (test_preflight.PreflightRegressionTests.test_missing_strace_returns_incomplete_not_success) ... ok
+test_normal_exit_also_cleans_background_child (test_preflight.PreflightRegressionTests.test_normal_exit_also_cleans_background_child) ... ok
+test_outer_timeout_cleans_nested_independent_group (test_preflight.PreflightRegressionTests.test_outer_timeout_cleans_nested_independent_group) ... ok
+test_path_traversal_rejected_without_reading_target (test_preflight.PreflightRegressionTests.test_path_traversal_rejected_without_reading_target) ... ok
+test_structured_probe_counts_require_complete_set (test_preflight.PreflightRegressionTests.test_structured_probe_counts_require_complete_set) ... ok
+test_symlink_entry_rejected (test_preflight.PreflightRegressionTests.test_symlink_entry_rejected) ... ok
+test_timeout_kills_delayed_child (test_preflight.PreflightRegressionTests.test_timeout_kills_delayed_child) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 6.594s
+
+OK

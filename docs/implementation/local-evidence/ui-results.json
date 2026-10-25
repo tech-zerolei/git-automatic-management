@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "open",
+    "baseline confirmation",
+    "semver 1.3.0",
+    "XSS text handling",
+    "manual review",
+    "preview",
+    "JSON export",
+    "stale invalidation",
+    "desktop/mobile layout",
+    "no external requests",
+    "quit"
+  ],
+  "pageErrors": [],
+  "externalRequests": []
+}

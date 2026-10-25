@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "start.sh daemon startup",
+    "HTTP 200",
+    "empty session",
+    "authenticated quit"
+  ],
+  "realRepositoryRead": false
+}
